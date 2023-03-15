@@ -25,7 +25,6 @@ img{
 
 #right {
     width: 440px;
-    background-color: aqua;
 }
 
 #left {
@@ -288,6 +287,9 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+.right_heading{
+    border-bottom: 1px solid #ccc;
+}
 .number-item-left{
     display: flex;
     align-items: center;
@@ -303,14 +305,61 @@ img{
     color: #757575;
     font-size: 20px;
 }
-.heading_member{
-    margin-bottom: 30px;
-}
 .heading_member-item{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: relative;
 }
 .right_setup{
     margin-left: 7px;
+}
+.heading_nember_last{
+    margin-bottom: 30px;
+}
+.time_bottom{
+    font-size: 13PX;
+    color: #999;
+    margin-left: 10PX;
+}
+.bottom_msg{
+    padding: 0 5px;
+    background-color: #ececec;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.heading_member-setup{
+    margin-bottom: 70px;
+}
+.bx-wink-smile{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.msg-setup{
+    color: #999;
+    font-style: italic;
+}
+._input-text{
+    width: 80%;
+    height: 35px;
+    font-size: 17px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FDF2F4;
+
+}
+.bottom_input{
+    display: flex;
+    align-items: center;
+}
+.bxs-smile{
+    margin-left: -30px;
+    font-size: 25px;
+}
+.name_setup{
+    font-weight: bold;
 }
